@@ -1,0 +1,43 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+Activation	resnet50.py	/^from keras.layers import Activation$/;"	i
+AveragePooling2D	resnet50.py	/^from keras.layers import AveragePooling2D$/;"	i
+BatchNormalization	resnet50.py	/^from keras.layers import BatchNormalization$/;"	i
+Conv2D	resnet50.py	/^from keras.layers import Conv2D$/;"	i
+Dense	resnet50.py	/^from keras.layers import Dense$/;"	i
+Flatten	resnet50.py	/^from keras.layers import Flatten$/;"	i
+GlobalAveragePooling2D	resnet50.py	/^from keras.layers import GlobalAveragePooling2D$/;"	i
+GlobalMaxPooling2D	resnet50.py	/^from keras.layers import GlobalMaxPooling2D$/;"	i
+Input	resnet50.py	/^from keras.layers import Input$/;"	i
+K	resnet50.py	/^import keras.backend as K$/;"	i
+MaxPooling2D	resnet50.py	/^from keras.layers import MaxPooling2D$/;"	i
+Model	resnet50.py	/^from keras.models import Model$/;"	i
+ResNet50	resnet50.py	/^def ResNet50(include_top=True, weights='imagenet',$/;"	f
+WEIGHTS_PATH	resnet50.py	/^WEIGHTS_PATH = 'https:\/\/github.com\/fchollet\/deep-learning-models\/releases\/download\/v0.2\/resnet50_weights_tf_dim_ordering_tf_kernels.h5'$/;"	v
+WEIGHTS_PATH_NO_TOP	resnet50.py	/^WEIGHTS_PATH_NO_TOP = 'https:\/\/github.com\/fchollet\/deep-learning-models\/releases\/download\/v0.2\/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5'$/;"	v
+ZeroPadding2D	resnet50.py	/^from keras.layers import ZeroPadding2D$/;"	i
+_obtain_input_shape	resnet50.py	/^from keras.applications.imagenet_utils import _obtain_input_shape$/;"	i
+conv_block	resnet50.py	/^def conv_block(input_tensor, kernel_size, filters, stage, block, strides=(2, 2)):$/;"	f
+decode_predictions	resnet50.py	/^from keras.applications.imagenet_utils import decode_predictions$/;"	i
+get_file	resnet50.py	/^from keras.utils.data_utils import get_file$/;"	i
+get_source_inputs	resnet50.py	/^from keras.engine.topology import get_source_inputs$/;"	i
+identity_block	resnet50.py	/^def identity_block(input_tensor, kernel_size, filters, stage, block):$/;"	f
+image	resnet50.py	/^from keras.preprocessing import image$/;"	i
+img	resnet50.py	/^    img = image.load_img(img_path, target_size=(224, 224))$/;"	v
+img_path	resnet50.py	/^    img_path = 'elephant.jpg'$/;"	v
+keras	resnet50.py	/^import keras.backend as K$/;"	i
+layer_utils	resnet50.py	/^from keras.utils import layer_utils$/;"	i
+layers	resnet50.py	/^from keras import layers$/;"	i
+model	resnet50.py	/^    model = ResNet50(include_top=True, weights='imagenet')$/;"	v
+np	resnet50.py	/^import numpy as np$/;"	i
+preds	resnet50.py	/^    preds = model.predict(x)$/;"	v
+preprocess_input	resnet50.py	/^from keras.applications.imagenet_utils import preprocess_input$/;"	i
+print_function	resnet50.py	/^from __future__ import print_function$/;"	i
+warnings	resnet50.py	/^import warnings$/;"	i
+x	resnet50.py	/^    x = image.img_to_array(img)$/;"	v
+x	resnet50.py	/^    x = np.expand_dims(x, axis=0)$/;"	v
+x	resnet50.py	/^    x = preprocess_input(x)$/;"	v
